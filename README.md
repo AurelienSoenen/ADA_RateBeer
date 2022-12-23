@@ -24,7 +24,7 @@ Then, we will use those various methods to cluster the different countries, and 
 {% include Threshold.html %}
 {% include users_per_location.html %}
 {% include weight.html %}
-## Redrawing borders using beer preferences
+
 
 ## 1. What is the favorite beer per country?
 
@@ -37,6 +37,7 @@ All come from the website [RateBeer](https://www.ratebeer.com/), which is, accor
 On this website, users can enter their country of origin
 
 
+## 3. Redrawing borders using beer preferences
 
 ![Drawing boundaries](/assets/boundaries.jpg)
 
@@ -48,11 +49,11 @@ We may come from very different places, but we can redraw those borders by shari
 
 If we break down preferences for beer styles into just two axes, we can easily visualize similarities between different countries' preferences for beers. Not every country has rated every type of beer style, so we used item-based collaborative filtering to fill in the gaps.
 
+<iframe width="500" height="500" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/p_if37obtq1c" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 The result, after decomposing high-dimension preference vectors into two axes is a map, where the size of the bubbles tell us how many reviews came from that country.
 
-{% raw %}
 <iframe width="1200" height="800" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/218AD" frameborder="0" style="border:0" allowfullscreen></iframe>
-{% endraw %}
 
 It can be hard to visualize patterns from a set of axes which we're unfamiliar with. Instead, we decided to draw out similarities by clustering them and coloring these clusters on a map of the world.
 
