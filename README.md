@@ -40,15 +40,15 @@ Not every country has rated every type of beer style, so we used item-based coll
 
 The result, after decomposing high-dimension preference vectors into two axes is a map, where the size of the bubbles tell us how many reviews came from that country.
 
-/ insert graph here
+{% raw %}
+<iframe width="800" height="300" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/218AD" frameborder="0" style="border:0" allowfullscreen></iframe>
+{% endraw %}
 
 It can be hard to visualize patterns from a set of axes which we're unfamiliar with. Instead, we decided to draw out similarities by clustering them and coloring these clusters on a map of the world.
 
 The resulting world map is plotted below.
 
-{% raw %}
-<iframe width="800" height="300" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/218AD" frameborder="0" style="border:0" allowfullscreen></iframe>
-{% endraw %}
+<iframe width="900" height="400" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/p_l0bphrvq1c" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 # Conclusion
 
