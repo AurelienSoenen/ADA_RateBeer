@@ -10,6 +10,8 @@ However, another question can be answered : what is the preferred beer of all? M
 
 
 
+
+
 ## Goal
 What if we re-arranged the world through beer taste? What would be the map resulting from it? What countries will be linked per their beer’s love? Can natural enemies become friends over a nice cold beverage? 
 
@@ -20,10 +22,11 @@ For the first one, we will analyze several ways to find, and try to be as accura
 Then, we will use those various methods to cluster the different countries, and observe the new world beer map!
 
 
+
+
 ## 1. What is the favorite beer per country?
 
 First of all let's talk about the data used for our analysis.
-
 
 <img align="left" width="200" height="200" src="images\ratebeer.png">
 
@@ -33,6 +36,9 @@ On this website, users can rate beers on 4 aspects : appearance, aroma, palate a
 
 
 {% include ratings_per_user.html %} 
+
+
+### Cut the weeds
 
 As we can see, a large number of users only leave one or very few ratings. As our purpose is to compute the preferred style for the users, the one that leave almost no ratings are of very litte help to achieve it. So, as well as the website methods to compute the average score of a beer ([RateBeer Quality assurance](https://www.ratebeer.com/ratingsqa.asp)), we will need to take out users under a certain threshold of ratings.
 
@@ -50,9 +56,53 @@ Let's look at the remaining countries :
 
 Without surprise, we see that the main place represented is the USA, home of the website. Next we have Europe in second place, with each cardinal points more or less equal in number of users.
 
+### Is it a democraty?
+
+The answer is no. Not every user worth the same in term of opinion : we already took out the ones without a sufficient rating history.
+
+In addition, some users can have binary rating (0 or 20) to favor their opinion in the overall site rating. Also, we could see the opinion of expert (people with a lot of rating), more representatif than some amateur. 
+
+So we decided to apply a weight to all users, in the order to try to be as accurate as possible.
+
+\
+<span style="color:red;font-weight:700;font-size:20px">
+    Warning :
+</span>
+<span style="color:red;font-weight:700;font-size:15px">
+    This section will contain some math. If the reader has mathophobia, please skip to the next section. Reader discretion is advised
+</span>
+
+2 factors need to be taken into account : 
+
+1. **Binarity** : 
+$$ weight_1 = \frac{\sum rating \ne max \space or \space min + \frac{\sum rating = max \space or \space min}{10}}{total\space number\space of\space rating} $$
+
+
+The factor is always between 0.1 and 1. The factor 10 is arbitrary, but help to reduce the influence of those users while still keeping their rating into account, and avoid sparcity of the data.
+
+
+
+2. **expertise** : 
+$$weight_2 = \frac{log(number\space of\space rating)}{log(users\space threshold)}$$
+
+
+This factor is equal to 1 at the minimum, and increase with the number of review.
+
+The final weight will be the product of those 2 weigths.
+
+$$Weight_{tot} = weight_1 \cdot weight_2$$
+
+
+<span style="color:red;font-weight:700;font-size:20px">
+    End of math
+</span>
+
+
+A the end, we see the repartition of the different users, with a spike around 1 : a grand proportion does not have a great number of ratings, but still are not binary reviewers.
 {% include weight.html %}
 
 
+### Old beer lovers
 These data were collected at the Beer Rate site during the period 2001 to 2017. Although we have 18 years of data, our analysis will not focus on the first few years as there is not enough data to make an accurate analysis. As you know, the popularity of the internet continues to grow and therefore it is not surprising to see an increase in reviews over the years. It is also worth mentioning that Rate Beer is a website and at the beginning it is not easy to get users to review beers. These two factors explain why there has been an increase in users over the years. It is even noticeable that this site had a linear growth. 
 
 However, in 2018 there has been a decrease in reviews, but this is completely logical as the data for the site was collected in the middle of the year. For this reason we will carry out our analysis up to 2017.
