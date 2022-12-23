@@ -54,6 +54,7 @@ Without surprise, we see that the main place represented is the USA, home of the
 
 
 These data were collected at the Beer Rate site during the period 2001 to 2017. Although we have 18 years of data, our analysis will not focus on the first few years as there is not enough data to make an accurate analysis. As you know, the popularity of the internet continues to grow and therefore it is not surprising to see an increase in reviews over the years. It is also worth mentioning that Rate Beer is a website and at the beginning it is not easy to get users to review beers. These two factors explain why there has been an increase in users over the years. It is even noticeable that this site had a linear growth. 
+
 However, in 2018 there has been a decrease in reviews, but this is completely logical as the data for the site was collected in the middle of the year. For this reason we will carry out our analysis up to 2017.
 {% include ratings_over_time.html %} 
 
