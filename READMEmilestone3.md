@@ -1,4 +1,6 @@
 # It’s a beer’s, beer’s, beer’s world
+Check out our data story [here](https://aureliensoenen.github.io/ADA_RateBeer.github.io/)
+
 ## Abstract:
 What if we re-arranged the world through beer taste? What would be the map resulting from it? What countries will be linked per their beer’s love? Can natural enemies become friends over a nice cold beverage? 
 
@@ -15,8 +17,7 @@ Then, we will use those various methods to cluster the different countries, and 
 ## Proposed additional dataset:
 
 [Dataset of the geographical coordinates of each country’s centroid](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv)
-- Publicly available on the internet
-- Used to help with creating data points for the maps
+- [world_vis0.geojson]()
 
 ## How we intend to work towards answering the questions:
 
@@ -41,17 +42,13 @@ Then, we will use those various methods to cluster the different countries, and 
 3. Analysis of clusters
     - Depending on the results, we might be able to identify how clusters with similar beer preferences may share other similar characteristics (e.g. proximity to the coast, influence from particular countries through colonialism, climate etc.)
 
-## Proposed timeline:
-Here’s the dates we expect to complete our analysis for the different research questions:
-- Research Question 1 by 10/12
-- Research Question 2 by 17/12
-- Data Story and Notebook by 21/12
 
 ## Organization within the team:
-We decided to divide the work into two sub-teams, so that we can benefit from teamwork efficiency, and work on things in parallel. Each sub-team is responsible for doing its part, and we meet regularly with the entire group to share our advancement, methods and discuss the next steps to work on. This allows us to provide feedback to each other while working on the same topic.
+For milestones one and two we decided to split the work into two sub-teams, in order to benefit from the efficiency of teamwork and to work in parallel. Each sub-team is responsible for doing its own part of the work, and we meet regularly with the whole group to share our progress, methods and discuss the next steps to be taken. This allows us to provide feedback to each other while working on the same topic.
+For milestone 3, we divided the work into four parts, each working on their part individually and after a few days we got together to find out what had been done and what was left to do. Then we divided the work again so that we could finish the work with our datastory in time. 
+Overall, the work was divided up as follows:
+- Benjamin Lim: Clustering of countries
+- Dangling Ruan: Map of the best beers
+- Aurélien Soenen: Making the site
+- Louis Van Den Abbeele: Users analyses and interactive plots
 
-## Question for the TA’ s
-
-What is your favorite beer?
-Which method are you recommending for clustering?
-Which method do you think gives the more accurate result in your opinion?
