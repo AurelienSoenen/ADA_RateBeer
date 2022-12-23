@@ -104,15 +104,15 @@ However, in 2018 there has been a decrease in reviews, but this is completely lo
 
 ### Touring each country's favourites
 
+The table of the three best beers per country shows surprisingly that there is no strong relationship between the taste of beers and continents or sub-regions. Among all European countries, it is interesting to note that some neighbouring countries have completely different tastes. But places that are both geographically distant and culturally distant (e.g. Russia and Canada) share a similar taste. On all continents and in all sub-regions, almost all European countries have colours, which means that they have collected enough data, which is consistent with our impression that Europeans are generally big drinkers. However, the countries of the Middle East, South-East Asia and Africa are not represented, which may be partly explained by their history and religion.
+
+{% include top_3_country_2.html %}
+
 Knowing that the number of reviews is not equitable over time, we analyse the beer styles that each region in the world prefers over the different periods. Based on this, it is possible to find out which style comes up most often over the different time periods and is therefore the user's favourite style for each region.
 
 Despite the multitude of different beer styles, it can be seen that all regions are convinced of imperial stout beers, which are almost in the top three for each region over the whole period. Furthermore, it can be seen that each culture has its own typical taste, such as India Style Lager which is in second place in Eastern Asia or Speciality Grain which is in first place in Oceania.
 
 Moreover, we notice that there have been trends that have spread over the years. Let's analyse the imperial stout. At the beginning it was the preferred beer style of people in North America and Northern Europe. A few years later it was the preferred style for those in South America. And this trend continued for the third period, during which imperial stout was in first place in Africa, Western Europe and Oceania. In the fourth period it was in Saudi Arabia where Imperial Stout was in first position. And finally in the fifth period we finish the tour as it was again in first position in North America. There was an influence of beer from north to south and from west to east during the period. It is noticeable that after 17 years the same trends are coming back in North America. Knowing this trend, would it be possible to predict the next beer styles that beer users will love? 
-
-
-{% include top_3_country_2.html %}
-
 
 {% include top_3_subregion_period.html %}
 
