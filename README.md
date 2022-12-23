@@ -30,13 +30,27 @@ These data were collected at the Beer Rate site during the period 2001 to 2017. 
 
 ## 1. What is the favorite beer per country?
 
-First of all let's talk the data used for our analysis.
+## 1. What is the favorite beer per country?
 
-<img align="right" width="250" height="250" src="ratebeer.png">
+First of all let's talk about the data used for our analysis.
 
-All come from the website [RateBeer](https://www.ratebeer.com/), which is, according to them : *widely recognized as the most in-depth, accurate, and one of the most-visited source for beer information. [...] RateBeer is a consumer-driven Web site and we strive to remain unbiased in our ratings and editorial content.*
 
-On this website, users can enter their country of origin
+<img align="left" width="200" height="200" src="ratebeer.png">
+
+All come from the website [RateBeer](https://www.ratebeer.com/), which is, according to it : *widely recognized as the most in-depth, accurate, and one of the most-visited source for beer information. RateBeer is a world site for craft beer enthusiasts and is dedicated to serving the entire craft beer community through beer education, promotion and outreach. is a consumer-driven Web site and we strive to remain unbiased in our ratings and editorial content.*
+
+On this website, users can rate beers on 4 aspects : appearance, aroma, palate and taste, and they can add a text review to comment their opinion. Each users can encode its country, which will be very useful here, and write as many ratings as he likes:
+
+
+{% include ratings_per_user.html %} 
+
+As we can see, a large number of users only leave one or very few ratings. As our purpose is to compute the preferred style for the users, the one that leave almost no ratings are of very litte help to achieve it. So, as well as the website methods to compute the average score of a beer ([RateBeer Quality assurance](https://www.ratebeer.com/ratingsqa.asp)), we will need to take out users under a certain threshold of ratings.
+
+Moreover, the same reasonning can be applied for the countries : if we do not have enough users for a certain country, does it make sens to compute its favorite style? Will it really be representative of its population?
+
+Unfortunately we cannot only look at the precision and correctness of our result : indeed, what is the point of having expert users and countries ith thousands of reviewers if we end up with 2 countries only? We had to make a compromise between plentiness and quality of data : 
+
+{% include Threshold.html %} 
 
 
 ## 3. Redrawing borders using beer preferences
