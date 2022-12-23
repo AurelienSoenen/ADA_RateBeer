@@ -1,27 +1,16 @@
-It is not impetuous to say that during his lifetime, the majority of the human beings on earth will have tasted the cold and sweet beverage that is called beer. Some may dislike it, some may love it a little bit too much, but the least to say is that every body has some word about it. 
+It is not impetuous to say that during his lifetime, the majority of the human beings on earth will have tasted the cold and sweet beverage that is called beer. Some may dislike it, some may love it a little bit too much, but the least to say is that everybody has some word about it. 
 
-Indeed, not only this drink is universal, but it's also widely diverse in taste, style, ingredients, ... . A real spectrum of variety across the different cultures of the world. Of course, with today mondialisation, every style is not confined to its region of origin anymore, it had the chance to spread across borders and oceans. That let people around the globe able to enjoy any kind they want.
+Indeed, not only this drink is universal, but it's also widely diverse in taste, style, ingredients, .... A real spectrum of variety across the different cultures of the world. Of course, with today mondialisation, every style is not confined to its region of origin anymore, it had the chance to spread across borders and oceans. That let people around the globe able to enjoy any kind they want.
 
-This variety opened a endless debate : what is the best beer? The answer will always be impossible to find, as objectivity does not have its place here : the opinion of someone is greatly biaised by its taste, country of birth, social condition,... . Trying to make your voice heard may make tones and emotions rise and lead to severe tensions, which is the opposite of the desired atmosphere when filling the glasses.
+This variety opened an endless debate : what is the best beer? The answer will always be impossible to find, as objectivity does not have its place here : the opinion of someone is greatly biaised by its taste, country of birth, social condition,... . Trying to make your voice heard may make tones and emotions rise and lead to severe tensions, which is the opposite of the desired atmosphere when filling the glasses.
 
-However, another question can be answered : what is the preferred beer of all? Moreover, can people with very different origins find common ground around a full to the brim pint?
-
-
-
-
+However, another question can be answered : what is the prefered beer of all? Moreover, can people with very different origins find common ground around a full to the brim pint?
 
 
 ## Goal
 What if we re-arranged the world through beer taste? What would be the map resulting from it? What countries will be linked per their beer’s love? Can natural enemies become friends over a nice cold beverage? 
 
-This project will have two phases: the first will be to find the best method to compute the favorite beer style per country, and the second to reassemble them according to the latter results.
-
-For the first one, we will analyze several ways to find, and try to be as accurate as possible with the dataset given:  we plan to try various methods and libraries to generate the results, and compare the resultings insights we find, and hopefully tell an awesome, easy-to-follow story using a combination of maps and statistics.
-
-Then, we will use those various methods to cluster the different countries, and observe the new world beer map!
-
-
-
+This project will have two phases: the first will be to find the good method to compute the favorite beer style per country. Next, we will cluster the different country to see what region will result from it.
 
 ## 1. What is the favorite beer per country?
 
@@ -39,7 +28,7 @@ On this website, users can rate beers on 4 aspects : appearance, aroma, palate a
 
 ### Cut the weeds
 
-As we can see, a large number of users only leave one or very few ratings. As our purpose is to compute the preferred style for the users, the one that leave almost no ratings are of very litte help to achieve it. So, as well as the website methods to compute the average score of a beer ([RateBeer Quality assurance](https://www.ratebeer.com/ratingsqa.asp)), we will need to take out users under a certain threshold of ratings.
+As we can see, a large number of users only leave one or very few ratings. As our purpose is to compute the prefered style for the users, the one that leave almost no ratings are of very litte help to achieve it. So, as well as the website methods to compute the average score of a beer ([RateBeer Quality assurance](https://www.ratebeer.com/ratingsqa.asp)), we will need to take out users under a certain threshold of ratings.
 
 Moreover, the same reasonning can be applied for the countries : if we do not have enough users for a certain country, does it make sens to compute its favorite style? Will it really be representative of its population?
 
