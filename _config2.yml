@@ -1,8 +1,5 @@
 theme: jekyll-theme-minimal
-title: ADA Template Website
-description: A template website for ADA
+title: ADA RateBeer
+description: Site for the ADA course
 show_downloads: True
-navigation:
-  - title: /
-    url: example
 
