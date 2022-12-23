@@ -70,19 +70,13 @@ The answer is no. Not every user worth the same in term of opinion : we already 
 
 2 factors need to be taken into account : 
 
-1. **Binarity** : 
+1. **Binarity** : The factor is always between 0.1 and 1. The factor 10 is arbitrary, but help to reduce the influence of those users while still keeping their rating into account, and avoid sparcity of the data.
 
 <img src="images/equ1.png" alt="drawing" width="470"/>
 
-The factor is always between 0.1 and 1. The factor 10 is arbitrary, but help to reduce the influence of those users while still keeping their rating into account, and avoid sparcity of the data.
-
-
-
-2. **expertise** : 
+2. **expertise** : This factor is equal to 1 at the minimum, and increase with the number of review.
 
 <img src="images/equ2.png" alt="drawing" width="300"/>
-
-This factor is equal to 1 at the minimum, and increase with the number of review.
 
 The final weight will be the product of those 2 weigths.
 
