@@ -89,7 +89,11 @@ The final weight will be the product of those 2 weigths.
 
 
 At the end, we see the repartition of the different users, with a spike around 1 : a grand proportion does not have a great number of ratings, but still are not binary reviewers.
+<p align="center">
+
 {% include weight.html %}
+
+</p>
 
 
 ### Old beer lovers
