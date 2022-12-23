@@ -83,11 +83,13 @@ The factor is always between 0.1 and 1. The factor 10 is arbitrary, but help to 
 
 
 2. **expertise** : 
+
 <img src="images/equ2.png" alt="drawing" width="300"/>
 
 This factor is equal to 1 at the minimum, and increase with the number of review.
 
 The final weight will be the product of those 2 weigths.
+
 <img src="images/equ3.png" alt="drawing" width="270"/>
 
 
