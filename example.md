@@ -2,6 +2,7 @@
 layout: default
 ---
 # Change the text
+## Et Ici
 another change
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
