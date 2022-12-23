@@ -54,7 +54,7 @@ Let's look at the remaining countries :
 
 {% include users_per_location.html %}
 
-Without surprise, we see that the main place represented is the USA, home of the website. Next we have Europe in second place, with each cardinal points more or less equal in number of users.
+Without surprise, we see that the main place represented is Nothern America with the USA, home country of the website. Next we have Europe in second place, with each cardinal points more or less equal in number of users.
 
 ### Is it a democraty?
 
