@@ -64,8 +64,8 @@ The answer is no. Not every user worth the same in term of opinion : we already 
 <span style="color:red;font-weight:700;font-size:20px">
     Warning :
 </span>
-<span style="color:red;font-weight:700;font-size:15px">
-    This section will contain some math. If the reader has mathophobia, please skip to the next section. Reader discretion is advised
+<span style="color:red;font-weight:700;font-size:14px">
+    This section will contain math. If the reader has mathophobia, please skip this section. Reader discretion is advised
 </span>
 
 2 factors need to be taken into account : 
