@@ -33,9 +33,9 @@ All come from the american website [RateBeer](https://www.ratebeer.com/), which 
 
 On this website, users can rate beers on 4 aspects : appearance, aroma, palate and taste, and they can add a text review to comment their opinion. Each users can encode its country (we will assume that they entered their real one), which will be very useful here, and write as many ratings as he likes:
 
-
+<p align="center">
 {% include ratings_per_user.html %} 
-
+</p>
 
 ### Cut the weeds
 
