@@ -44,7 +44,7 @@ As we can see, a large number of users only leave one or very few ratings. As ou
 
 Moreover, the same reasonning can be applied for the countries : if we do not have enough users for a certain country, does it make sens to compute its favorite style? Will it really be representative of its population?
 
-Unfortunately we cannot only look at the precision and correctness of our result : indeed, what is the point of having expert users and countries ith thousands of reviewers if we end up with 2 countries only? We had to make a compromise between plentiness and quality of data: 
+Unfortunately we cannot only look at the precision and correctness of our result : indeed, what is the point of having expert users and countries with thousands of reviewers if we end up with 2 countries only? We had to make a compromise between plentiness and data quality: 
 
 {% include Threshold.html %} 
 
