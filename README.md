@@ -82,4 +82,4 @@ Surprisingly, beer preferences are much less region specific. While Argentina, C
 
 
 test donglin
-{% include top_3_country_time.html %}
+{% include top_three_beers_time.html %}
