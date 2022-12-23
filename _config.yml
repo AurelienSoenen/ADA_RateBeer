@@ -1,5 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 title: ADA RateBeer
-description: Site for the ADA course + a very long discription that take all the line and other stuff to add
+description: Site for the ADA course 
 show_downloads: False
-
