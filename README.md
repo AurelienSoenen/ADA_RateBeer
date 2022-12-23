@@ -102,8 +102,13 @@ These data were collected at the Beer Rate site during the period 2001 to 2017. 
 However, in 2018 there has been a decrease in reviews, but this is completely logical as the data for the site was collected in the middle of the year. For this reason we will carry out our analysis up to 2017.
 {% include ratings_over_time.html %} 
 
+### Touring each country's favourites
 
-### World tour
+{% include top_3_subregion_period.html %}
+
+The chart of top 3 beers per country surprisingly shows that there's no strong relation between the taste of beers and continents or sub-regions. Especially among all the the european countries, interestingly quite some adjacent countries share completely different taste. But places that are both geographically far apart and culturally distant(for example Russia and Canada) shares similiar taste.
+Cross all continents and sub regions, almost all european countries have colors, which means that they have enough data point collected, this fits our impression on generally european people are heavy alcohol lovers. However places in middle east, south east asia and african countries are left blank, this can be partially explaned by its history and religion.
+
 
 ## 2. Redrawing borders using beer preferences
 
@@ -121,9 +126,9 @@ The result, after decomposing high-dimension preference vectors into two axes is
 
 <iframe width="1000" height="666" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/218AD" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-It seems rather fitting that Tanzania, Kazakhstan and Namibia are some of the outliers in this graph. To be honest, we're not familiar with the beers that these countries enjoy, but maybe only those brave enough to travel there will ...
+It seems rather fitting that Tanzania, Kazakhstan and Namibia are some of the outliers in this graph. To be honest, we're not familiar with the beers that these countries enjoy, and perhaps it goes to show that you really need to travel to unorthodox parts of the world to experience tastes that are truly different.
 
-However, it can be hard to visualize patterns from a set of axes which we're unfamiliar with. We decided to draw out similarities by clustering them and coloring these clusters on a map of the world.
+However, it can be slightly difficult to visualize patterns from a set of axes which we're unfamiliar with. Hence, we decided to draw out similarities by clustering countries based on these vectors and coloring these clusters on a map of the world. In this way, we can really redraw the borders of the world.
 
 The resulting world map is plotted below.
 
@@ -131,18 +136,10 @@ The resulting world map is plotted below.
 
 Surprisingly, beer preferences are much less region specific. While Argentina, Chile, Brazil and Uruguay sharing the similar beer preferences may not shock anyone, who would have thought Russia, Ukraine and the United States would share similar preferences? Or let alone Canada and China?
 
-
-
+We notice that particularly in Europe, countries like Croatia and Slovenia can share political borders with many countries, and yet differ with all of their neighbours in terms of beer preferences. Europe is known to produce a large variety of beers, so this might not come as a surprise to many.
 
 # Conclusion
 
+Wrapping up, our biggest takeaway has got to be that we've got to start putting away our inhibitions when meeting people and cultures we're unfamiliar with. For all you know, they might just happen to share the most similar preferences with you, be it for beer, or other drinks, or for anything else in life.
 
-test donglin
-
-graph 1:
-
-{% include top_3_country_2.html %}
-
-graph 2:
-
-{% include top_3_subregion_period.html %}
+In a world where we can sometimes feel like there is so much tension and disagreements out there, it's truly comforting to know that preferences for beers aren't exactly localized - just because countries are halfway across the globe from each other, it really doesn't mean that you can't share in the same enjoyment of sipping down a warm, frothy mug of beer.
