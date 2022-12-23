@@ -108,14 +108,14 @@ Knowing that the number of reviews is not equitable over time, we analyse the be
 
 Despite the multitude of different beer styles, it can be seen that all regions are convinced of imperial stout beers, which are almost in the top three for each region over the whole period. Furthermore, it can be seen that each culture has its own typical taste, such as India Style Lager which is in second place in Eastern Asia or Speciality Grain which is in first place in Oceania.
 
+Moreover, we notice that there have been trends that have spread over the years. Let's analyse the imperial stout. At the beginning it was the preferred beer style of people in North America and Northern Europe. A few years later it was the preferred style for those in South America. And this trend continued for the third period, during which imperial stout was in first place in Africa, Western Europe and Oceania. In the fourth period it was in Saudi Arabia where Imperial Stout was in first position. And finally in the fifth period we finish the tour as it was again in first position in North America. There was an influence of beer from north to south and from west to east during the period. It is noticeable that after 17 years the same trends are coming back in North America. Knowing this trend, would it be possible to predict the next beer styles that beer users will love? 
+
+
 {% include top_3_country_2.html %}
 
-The chart of top 3 beers per country surprisingly shows that there's no strong relation between the taste of beers and continents or sub-regions. Especially among all the the european countries, interestingly quite some adjacent countries share completely different taste. But places that are both geographically far apart and culturally distant(for example Russia and Canada) shares similiar taste.
-Cross all continents and sub regions, almost all european countries have colors, which means that they have enough data point collected, this fits our impression on generally european people are heavy alcohol lovers. However places in middle east, south east asia and african countries are left blank, this can be partially explaned by its history and religion.
 
 {% include top_3_subregion_period.html %}
 
-By observing the chart, it is interesting to find out that no single sub-region stays with the same taste for following 5 periods. Meanwhile it is also hard to find out even one single type of beer that stays as the top preference for any period or any sub region. Change is truly the only constant. We believe that these changes are in part due to the forces of globalisation that result in changing preferences and assimilation of different cultures.
 
 ## 2. Redrawing borders using beer preferences
 
