@@ -23,6 +23,8 @@ Then, we will use those various methods to cluster the different countries, and 
 {% include ratings_per_user.html %}
 {% include Threshold.html %}
 {% include users_per_location.html %}
+{% include weight.html %}
+{% include ratings_over_time.html %}
 ## Redrawing borders using beer preferences
 
 ![Drawing boundaries](/assets/boundaries.jpg)
