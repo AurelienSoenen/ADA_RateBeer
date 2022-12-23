@@ -75,9 +75,7 @@ So we decided to apply a weight to all users, in the order to try to be as accur
 2 factors need to be taken into account : 
 
 1. **Binarity** : 
-'''math
-weight_1 = \frac{\sum rating \ne max \space or \space min + \frac{\sum rating = max \space or \space min}{10}}{total\space number\space of\space rating}
-'''
+![image](images\eq1.png)
 
 
 The factor is always between 0.1 and 1. The factor 10 is arbitrary, but help to reduce the influence of those users while still keeping their rating into account, and avoid sparcity of the data.
