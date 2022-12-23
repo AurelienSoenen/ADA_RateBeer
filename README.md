@@ -112,7 +112,7 @@ Cross all continents and sub regions, almost all european countries have colors,
 
 ## 2. Redrawing borders using beer preferences
 
-<img width="1000" height="300" src="/assets/boundaries.jpg">
+![Boundaries](/assets/boundaries.jpg)
 
 Several things unite people from all around the world together: watching football, listening to music and arguably, *drinking beer*. These universal interests allow us to enjoy shared moments and put aside whatever differences we have. 
 
