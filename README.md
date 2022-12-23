@@ -30,8 +30,8 @@ Then, we will use those various methods to cluster the different countries, and 
 
 First of all let's talk the data used for our analysis.
 
-![image](images/ratebeer.png){: style="float: right"}
 
+![image](images/ratebeer.png){: style="float: left"}
 All come from the website [RateBeer](https://www.ratebeer.com/), which is, according to them : *widely recognized as the most in-depth, accurate, and one of the most-visited source for beer information. [...] RateBeer is a consumer-driven Web site and we strive to remain unbiased in our ratings and editorial content.*
 
 
