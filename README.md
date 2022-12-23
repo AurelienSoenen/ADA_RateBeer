@@ -49,8 +49,6 @@ We may come from very different places, but we can redraw those borders by shari
 
 If we break down preferences for beer styles into just two axes, we can easily visualize similarities between different countries' preferences for beers. Not every country has rated every type of beer style, so we used item-based collaborative filtering to fill in the gaps.
 
-<iframe width="500" height="500" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/p_if37obtq1c" frameborder="0" style="border:0" allowfullscreen></iframe>
-
 The result, after decomposing high-dimension preference vectors into two axes is a map, where the size of the bubbles tell us how many reviews came from that country.
 
 <iframe width="1200" height="800" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/218AD" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -61,5 +59,9 @@ The resulting world map is plotted below.
 
 <iframe width="1200" height="400" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/p_l0bphrvq1c" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+Surprisingly, beer preferences are much less region specific. While Argentina, Chile, Brazil and Uruguay sharing the same 
 # Conclusion
 
+
+test donglin
+{% include top_3_country_time.html %}
