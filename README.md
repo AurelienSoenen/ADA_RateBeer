@@ -115,7 +115,7 @@ By observing the chart, it is interesting to find out that no single sub-region 
 
 ## 2. Redrawing borders using beer preferences
 
-![Boundaries](/images/line.jpg)
+![Boundaries](/assets/boundaries.jpg)
 
 Several things unite people from all around the world together: watching football, listening to music and arguably, *drinking beer*. These universal interests allow us to enjoy shared moments and put aside whatever differences we have. 
 
