@@ -90,11 +90,12 @@ The final weight will be the product of those 2 weigths.
 
 At the end, we see the repartition of the different users, with a spike around 1 : a grand proportion does not have a great number of ratings, but still are not binary reviewers.
 <p align="center">
-
 {% include weight.html %}
-
 </p>
 
+<div style="text-align: center;">
+{% include weight.html %}
+</div>
 
 ### Old beer lovers
 These data were collected at the Beer Rate site during the period 2001 to 2017. Although we have 18 years of data, our analysis will not focus on the first few years as there is not enough data to make an accurate analysis. As you know, the popularity of the internet continues to grow and therefore it is not surprising to see an increase in reviews over the years. It is also worth mentioning that Rate Beer is a website and at the beginning it is not easy to get users to review beers. These two factors explain why there has been an increase in users over the years. It is even noticeable that this site had a linear growth. 
