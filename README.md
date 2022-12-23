@@ -104,11 +104,14 @@ However, in 2018 there has been a decrease in reviews, but this is completely lo
 
 ### Touring each country's favourites
 
-{% include top_3_subregion_period.html %}
+{% include top_3_country_2.html %}
 
 The chart of top 3 beers per country surprisingly shows that there's no strong relation between the taste of beers and continents or sub-regions. Especially among all the the european countries, interestingly quite some adjacent countries share completely different taste. But places that are both geographically far apart and culturally distant(for example Russia and Canada) shares similiar taste.
 Cross all continents and sub regions, almost all european countries have colors, which means that they have enough data point collected, this fits our impression on generally european people are heavy alcohol lovers. However places in middle east, south east asia and african countries are left blank, this can be partially explaned by its history and religion.
 
+{% include top_3_subregion_period.html %}
+
+By observing the chart, it is interesting to find out that no single sub-region stays with the same taste for following 5 periods. Meanwhile it is also hard to find out even one single type of beer that stays as the top preference for any period or any sub region. Change is truly the only constant. We believe that these changes are in part due to the forces of globalisation that result in changing preferences and assimilation of different cultures.
 
 ## 2. Redrawing borders using beer preferences
 
