@@ -108,7 +108,10 @@ These data were collected at the Beer Rate site during the period 2001 to 2017. 
 However, in 2018 there has been a decrease in reviews, but this is completely logical as the data for the site was collected in the middle of the year. For this reason we will carry out our analysis up to 2017.
 {% include ratings_over_time.html %} 
 
-## 3. Redrawing borders using beer preferences
+
+### World tour
+
+## 2. Redrawing borders using beer preferences
 
 ![Drawing boundaries](/assets/boundaries.jpg)
 
