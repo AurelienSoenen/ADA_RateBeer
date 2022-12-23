@@ -40,6 +40,7 @@ Then, we will use those various methods to cluster the different countries, and 
 ## Proposed additional dataset:
 
 [Dataset of the geographical coordinates of each country’s centroid](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv)
+
 [world_vis0.geojson]()
 
 ## Organization within the team:
