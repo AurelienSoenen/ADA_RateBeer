@@ -1,23 +1,18 @@
 # It’s a beer’s, beer’s, beer’s world
-Check out our data story [here](https://aureliensoenen.github.io/ADA_RateBeer.github.io/)
+Check out our data story [here](https://aureliensoenen.github.io/ADA_RateBeer.github.io/)!!!
 
-## Abstract:
-What if we re-arranged the world through beer taste? What would be the map resulting from it? What countries will be linked per their beer’s love? Can natural enemies become friends over a nice cold beverage? 
+## Goal:
+What if we re-arranged the world through beer taste? What would be the map resulting from it? What countries will be linked per their beer’s love? Can natural enemies become friends over a nice cold beverage?
 
 This project will have two phases: the first will be to find the best method to compute the favorite beer style per country, and the second to reassemble them according to the latter results.
 
-For the first one, we will analyze several ways to find, and try to be as accurate as possible with the dataset given:  we plan to try various methods and libraries to generate the results, and compare the resultings insights we find, and hopefully tell an awesome, easy-to-follow story using a combination of maps and statistics.
+For the first one, we will analyze several ways to find, and try to be as accurate as possible with the dataset given: we plan to try various methods and libraries to generate the results, and compare the resultings insights we find, and hopefully tell an awesome, easy-to-follow story using a combination of maps and statistics.
 
 Then, we will use those various methods to cluster the different countries, and observe the new world beer map!
 
 ## Research Questions:
-1. What is the best method to find the favorite beer per country?
+1. What is the favorite beer per country?
 2. What happens if we draw the world’s boundaries using beer preferences?
-
-## Proposed additional dataset:
-
-[Dataset of the geographical coordinates of each country’s centroid](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv)
-- [world_vis0.geojson]()
 
 ## How we intend to work towards answering the questions:
 
@@ -42,6 +37,10 @@ Then, we will use those various methods to cluster the different countries, and 
 3. Analysis of clusters
     - Depending on the results, we might be able to identify how clusters with similar beer preferences may share other similar characteristics (e.g. proximity to the coast, influence from particular countries through colonialism, climate etc.)
 
+## Proposed additional dataset:
+
+[Dataset of the geographical coordinates of each country’s centroid](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv)
+- [world_vis0.geojson]()
 
 ## Organization within the team:
 For milestones one and two we decided to split the work into two sub-teams, in order to benefit from the efficiency of teamwork and to work in parallel. Each sub-team is responsible for doing its own part of the work, and we meet regularly with the whole group to share our progress, methods and discuss the next steps to be taken. This allows us to provide feedback to each other while working on the same topic.
