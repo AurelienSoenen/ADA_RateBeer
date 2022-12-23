@@ -1,7 +1,6 @@
-{% include rating_per_user2.html %}
-{% include rating_per_user.html %}
-{% include Treshold.html %}
-{% include rating_per_location.html %}
+{% include ratings_per_user.html %}
+{% include Threshold.html %}
+{% include users_per_location.html %}
 ## Redrawing borders using beer preferences
 
 ![Drawing boundaries](/assets/boundaries.jpg)
