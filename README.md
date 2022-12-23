@@ -76,7 +76,7 @@ So we decided to apply a weight to all users, in the order to try to be as accur
 
 1. **Binarity** : 
 
-<img src="equ1.png" alt="equ1" width="400"/>
+<img src="equ1.png" alt="drawing" width="400"/>
 
 
 The factor is always between 0.1 and 1. The factor 10 is arbitrary, but help to reduce the influence of those users while still keeping their rating into account, and avoid sparcity of the data.
@@ -84,13 +84,13 @@ The factor is always between 0.1 and 1. The factor 10 is arbitrary, but help to 
 
 
 2. **expertise** : 
-<img src="equ2.png" alt="equ2" width="400"/>
+<img src="equ2.png" alt="drawing" width="400"/>
 
 This factor is equal to 1 at the minimum, and increase with the number of review.
 
 The final weight will be the product of those 2 weigths.
 
-<img src="equ3.png" alt="equ3" width="400"/>
+<img src="equ3.png" alt="drawing" width="400"/>
 
 <span style="color:red;font-weight:700;font-size:20px">
     End of math
