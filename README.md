@@ -24,18 +24,14 @@ Then, we will use those various methods to cluster the different countries, and 
 {% include Threshold.html %}
 {% include users_per_location.html %}
 {% include weight.html %}
-### Time histogram
-These data were collected at the Beer Rate site during the period 2001 to 2017. Although we have 18 years of data, our analysis will not focus on the first few years as there is not enough data to make an accurate analysis. As you know, the popularity of the internet continues to grow and therefore it is not surprising to see an increase in reviews over the years. It is also worth mentioning that Rate Beer is a website and at the beginning it is not easy to get users to review beers. These two factors explain why there has been an increase in users over the years. It is even noticeable that this site had a linear growth.However, in 2018 there has been a decrease in reviews, but this is completely logical as the data for the site was collected in the middle of the year. For this reason we will carry out our analysis up to 2017.
 
-
-## 1. What is the favorite beer per country?
 
 ## 1. What is the favorite beer per country?
 
 First of all let's talk about the data used for our analysis.
 
 
-<img align="left" width="200" height="200" src="ratebeer.png">
+<img align="left" width="200" height="200" src="images\ratebeer.png">
 
 All come from the website [RateBeer](https://www.ratebeer.com/), which is, according to it : *widely recognized as the most in-depth, accurate, and one of the most-visited source for beer information. RateBeer is a world site for craft beer enthusiasts and is dedicated to serving the entire craft beer community through beer education, promotion and outreach. is a consumer-driven Web site and we strive to remain unbiased in our ratings and editorial content.*
 
@@ -52,6 +48,8 @@ Unfortunately we cannot only look at the precision and correctness of our result
 
 {% include Threshold.html %} 
 
+### Time histogram
+These data were collected at the Beer Rate site during the period 2001 to 2017. Although we have 18 years of data, our analysis will not focus on the first few years as there is not enough data to make an accurate analysis. As you know, the popularity of the internet continues to grow and therefore it is not surprising to see an increase in reviews over the years. It is also worth mentioning that Rate Beer is a website and at the beginning it is not easy to get users to review beers. These two factors explain why there has been an increase in users over the years. It is even noticeable that this site had a linear growth.However, in 2018 there has been a decrease in reviews, but this is completely logical as the data for the site was collected in the middle of the year. For this reason we will carry out our analysis up to 2017.
 
 ## 3. Redrawing borders using beer preferences
 
