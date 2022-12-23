@@ -3,6 +3,6 @@ title: ADA Template Website
 description: A template website for ADA
 show_downloads: True
 navigation:
-  - title: Example
+  - title: /
     url: example
 
