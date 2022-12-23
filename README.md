@@ -139,3 +139,5 @@ We notice that particularly in Europe, countries like Croatia and Slovenia can s
 Wrapping up, our biggest takeaway has got to be that we've got to start putting away our inhibitions when meeting people and cultures we're unfamiliar with. For all you know, they might just happen to share the most similar preferences with you, be it for beer, or other drinks, or for anything else in life.
 
 In a world where we can sometimes feel like there is so much tension and disagreements out there, it's truly comforting to know that preferences for beers aren't exactly localized - just because countries are halfway across the globe from each other, it really doesn't mean that you can't share in the same enjoyment of sipping down a warm, frothy mug of beer.
+
+Trends exist all over the world. And this is also true for beers such as the imperial stout style, which over the years has been the preferred beer style on different continents with a trend from North to South and from West to East.
