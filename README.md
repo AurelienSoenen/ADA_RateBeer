@@ -24,6 +24,8 @@ Then, we will use those various methods to cluster the different countries, and 
 {% include Threshold.html %}
 {% include users_per_location.html %}
 {% include weight.html %}
+### Time histogram
+These data were collected at the Beer Rate site during the period 2001 to 2017. Although we have 17 years of data, our analysis will not focus on the first few years as there is not enough data to make an accurate analysis. As you know, the popularity of the internet continues to grow and therefore it is not surprising to see an increase in reviews over the years. It is also worth mentioning that Rate Beer is a website and at the beginning it is not easy to get users to review beers. These two factors explain why there has been an increase in users over the years. It is even noticeable that this site had a linear growth.
 
 
 ## 1. What is the favorite beer per country?
