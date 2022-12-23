@@ -147,8 +147,8 @@ test donglin
 
 graph 1:
 
-{% include top_three_beers_time.html %}
+{% include top_3_country_2.html %}
 
 graph 2:
 
-{% include top_3_country.html %}
+{% include top_3_subregion_period.html %}
