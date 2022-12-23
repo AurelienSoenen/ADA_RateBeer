@@ -58,11 +58,7 @@ Without surprise, we see that the main place represented is Nothern America with
 
 ### Is it a democraty?
 
-The answer is no. Not every user worth the same in term of opinion : we already took out the ones without a sufficient rating history.
-
-In addition, some users can have binary rating (0 or 20) to favor their opinion in the overall site rating. Also, we could see the opinion of expert (people with a lot of rating), more representatif than some amateur. 
-
-So we decided to apply a weight to all users, in the order to try to be as accurate as possible.
+The answer is no. Not every user worth the same in term of opinion : we already took out the ones without a sufficient rating history.In addition, some users can have binary rating (0 or 20) to favor their opinion in the overall site rating. Also, we could see the opinion of expert (people with a lot of rating), more representatif than some amateur. So we decided to apply a weight to all users, in the order to try to be as accurate as possible.
 
 \
 <span style="color:red;font-weight:700;font-size:20px">
