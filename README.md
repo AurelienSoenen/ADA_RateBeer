@@ -26,6 +26,17 @@ Then, we will use those various methods to cluster the different countries, and 
 {% include weight.html %}
 ## Redrawing borders using beer preferences
 
+## 1. What is the favorite beer per country?
+
+First of all let's talk the data used for our analysis.
+
+![image](images/ratebeer.png){: style="float: right"}
+
+All come from the website [RateBeer](https://www.ratebeer.com/), which is, according to them : *widely recognized as the most in-depth, accurate, and one of the most-visited source for beer information. [...] RateBeer is a consumer-driven Web site and we strive to remain unbiased in our ratings and editorial content.*
+
+
+
+
 ![Drawing boundaries](/assets/boundaries.jpg)
 
 Several things unite people from all around the world together: watching football, listening to music and arguably, *drinking beer*.
