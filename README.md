@@ -26,7 +26,7 @@ It can be hard to visualize patterns from a set of axes which we're unfamiliar w
 The resulting world map is plotted below.
 
 {% raw %}
-<iframe width="1200" height="1200" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/218AD" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="800" height="300" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/218AD" frameborder="0" style="border:0" allowfullscreen></iframe>
 {% endraw %}
 
 # Conclusion
