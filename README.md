@@ -75,6 +75,7 @@ So we decided to apply a weight to all users, in the order to try to be as accur
 2 factors need to be taken into account : 
 
 1. **Binarity** : 
+
 ![image](images\eq1.png)
 
 
