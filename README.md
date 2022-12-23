@@ -3,17 +3,17 @@
 
 ## Redrawing borders using beer preferences
 
-Several things unite people from all around the world together: watching football, listening to music and arguably, drinking beer.
+Several things unite people from all around the world together: watching football, listening to music and arguably, *drinking beer*.
 
 These universal interests allow us to enjoy shared moments and put aside whatever differences we have. 
 
 We hypothesize that people aren't so different after all.
 
-We may come from very different places, but we can redraw those borders by sharing in the same beers 🥰
+We may come from very different places, but we can redraw those borders by sharing in the same good 'ol beers 🥰
 
-/insert graph here
+![Drawing boundaries](/assets/boundaries.jpg)
 
-If we break down preferences for beer styles into just two axes, we can easily visualize similarities between different countries. 
+If we break down preferences for beer styles into just two axes, we can easily visualize similarities between different countries' preferences for beers. 
 
 Not every country has rated every type of beer style, so we used item-based collaborative filtering to fill in the gaps.
 
