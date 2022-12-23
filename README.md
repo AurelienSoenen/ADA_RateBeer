@@ -76,7 +76,7 @@ So we decided to apply a weight to all users, in the order to try to be as accur
 
 1. **Binarity** : 
 
-![image](images\eq1.png)
+![image](images\equ1.png)
 
 
 The factor is always between 0.1 and 1. The factor 10 is arbitrary, but help to reduce the influence of those users while still keeping their rating into account, and avoid sparcity of the data.
