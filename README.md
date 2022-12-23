@@ -103,7 +103,7 @@ However, in 2018 there has been a decrease in reviews, but this is completely lo
 
 ## 2. Redrawing borders using beer preferences
 
-![Drawing boundaries](/assets/boundaries.jpg)
+<img width="1000" height="300" src="assets/boundaries.jpg">
 
 Several things unite people from all around the world together: watching football, listening to music and arguably, *drinking beer*. These universal interests allow us to enjoy shared moments and put aside whatever differences we have. 
 
