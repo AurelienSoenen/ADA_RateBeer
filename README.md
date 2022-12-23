@@ -20,20 +20,16 @@ For the first one, we will analyze several ways to find, and try to be as accura
 Then, we will use those various methods to cluster the different countries, and observe the new world beer map!
 
 
-{% include ratings_per_user.html %}
-{% include Threshold.html %}
-{% include users_per_location.html %}
-{% include weight.html %}
-
-
 ## 1. What is the favorite beer per country?
 
 First of all let's talk about the data used for our analysis.
-<img align="left" width="200" height="200" src="images\ratebeer.png">
 
-All come from the website [RateBeer](https://www.ratebeer.com/), which is, according to it : *widely recognized as the most in-depth, accurate, and one of the most-visited source for beer information. RateBeer is a world site for craft beer enthusiasts and is dedicated to serving the entire craft beer community through beer education, promotion and outreach. is a consumer-driven Web site and we strive to remain unbiased in our ratings and editorial content.*
 
-On this website, users can rate beers on 4 aspects : appearance, aroma, palate and taste, and they can add a text review to comment their opinion. Each users can encode its country, which will be very useful here, and write as many ratings as he likes:
+<img align="left" width="200" height="200" src="ratebeer.png">
+
+All come from the american website [RateBeer](https://www.ratebeer.com/), which is, according to it : *widely recognized as the most in-depth, accurate, and one of the most-visited source for beer information. RateBeer is a world site for craft beer enthusiasts and is dedicated to serving the entire craft beer community through beer education, promotion and outreach. is a consumer-driven Web site and we strive to remain unbiased in our ratings and editorial content.*
+
+On this website, users can rate beers on 4 aspects : appearance, aroma, palate and taste, and they can add a text review to comment their opinion. Each users can encode its country (we will assume that they entered their real one), which will be very useful here, and write as many ratings as he likes:
 
 
 {% include ratings_per_user.html %} 
@@ -42,9 +38,21 @@ As we can see, a large number of users only leave one or very few ratings. As ou
 
 Moreover, the same reasonning can be applied for the countries : if we do not have enough users for a certain country, does it make sens to compute its favorite style? Will it really be representative of its population?
 
-Unfortunately we cannot only look at the precision and correctness of our result : indeed, what is the point of having expert users and countries ith thousands of reviewers if we end up with 2 countries only? We had to make a compromise between plentiness and quality of data : 
+Unfortunately we cannot only look at the precision and correctness of our result : indeed, what is the point of having expert users and countries ith thousands of reviewers if we end up with 2 countries only? We had to make a compromise between plentiness and quality of data: 
 
 {% include Threshold.html %} 
+
+Our choice is to keep users with at least 8 ratings, and country with at least 10 users.
+
+Let's look at the remaining countries :
+
+{% include users_per_location.html %}
+
+Without surprise, we see that the main place represented is the USA, home of the website. Next we have Europe in second place, with each cardinal points more or less equal in number of users.
+
+{% include weight.html %}
+
+
 
 ### Time histogram
 These data were collected at the Beer Rate site during the period 2001 to 2017. Although we have 18 years of data, our analysis will not focus on the first few years as there is not enough data to make an accurate analysis. As you know, the popularity of the internet continues to grow and therefore it is not surprising to see an increase in reviews over the years. It is also worth mentioning that Rate Beer is a website and at the beginning it is not easy to get users to review beers. These two factors explain why there has been an increase in users over the years. It is even noticeable that this site had a linear growth.However, in 2018 there has been a decrease in reviews, but this is completely logical as the data for the site was collected in the middle of the year. For this reason we will carry out our analysis up to 2017.
