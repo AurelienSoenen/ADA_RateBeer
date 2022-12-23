@@ -125,7 +125,7 @@ We may come from very different places, but we can redraw those borders by shari
 
 If we break down preferences for beer styles into just two axes, we can easily visualize similarities between different countries' preferences for beers. Not every country has rated every type of beer style, so we used item-based collaborative filtering to fill in the gaps.
 
-The result, after decomposing high-dimension preference vectors into two axes is a map, where the size of the bubbles tell us how many reviews came from that country.
+The result, after decomposing high-dimension preference vectors into two axes is a map, where the size of the bubbles indicate the size of the country.
 
 <iframe width="1000" height="666" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/218AD" frameborder="0" style="border:0" allowfullscreen></iframe>
 
