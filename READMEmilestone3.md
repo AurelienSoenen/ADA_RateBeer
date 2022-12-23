@@ -44,7 +44,9 @@ Then, we will use those various methods to cluster the different countries, and 
 
 ## Organization within the team:
 For milestones one and two we decided to split the work into two sub-teams, in order to benefit from the efficiency of teamwork and to work in parallel. Each sub-team is responsible for doing its own part of the work, and we meet regularly with the whole group to share our progress, methods and discuss the next steps to be taken. This allows us to provide feedback to each other while working on the same topic.
+
 For milestone 3, we divided the work into four parts, each working on their part individually and after a few days we got together to find out what had been done and what was left to do. Then we divided the work again so that we could finish the work with our datastory in time. 
+
 Overall, the work was divided up as follows:
 - Benjamin Lim: Clustering of countries
 - Dangling Ruan: Map of the best beers
