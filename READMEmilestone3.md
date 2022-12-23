@@ -41,7 +41,7 @@ Then, we will use those various methods to cluster the different countries, and 
 
 [Dataset of the geographical coordinates of each country’s centroid](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv)
 
-[world_vis0.geojson]()
+[world_vis0.geojson](https://gist.github.com/Retsediv/0e40bcbf41e0bfb2c49963bf4a5dd9fd?short_path=5978422)
 
 ## Organization within the team:
 For milestones one and two we decided to split the work into two sub-teams, in order to benefit from the efficiency of teamwork and to work in parallel. Each sub-team is responsible for doing its own part of the work, and we meet regularly with the whole group to share our progress, methods and discuss the next steps to be taken. This allows us to provide feedback to each other while working on the same topic.
