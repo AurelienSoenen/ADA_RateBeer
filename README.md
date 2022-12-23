@@ -83,4 +83,10 @@ Surprisingly, beer preferences are much less region specific. While Argentina, C
 
 test donglin
 
+graph 1:
+
 {% include top_three_beers_time.html %}
+
+graph 2:
+
+{% include top_3_country.html %}
