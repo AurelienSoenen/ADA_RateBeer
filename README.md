@@ -75,7 +75,6 @@ So we decided to apply a weight to all users, in the order to try to be as accur
 2 factors need to be taken into account : 
 
 1. **Binarity** : 
-
 $$weight_1 = \frac{\sum rating \ne max \space or \space min + \frac{\sum rating = max \space or \space min}{10}}{total\space number\space of\space rating} $$
 
 
