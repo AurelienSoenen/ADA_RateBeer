@@ -1,6 +1,6 @@
 {% include rating_per_user.html %}
 {% include Treshold.html %}
-{% include rating_per_location.html %}
+{% include users_per_location.html %}
 ## Redrawing borders using beer preferences
 
 Several things unite people from all around the world together: watching football, listening to music and arguably, *drinking beer*.
