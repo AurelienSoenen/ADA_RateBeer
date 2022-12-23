@@ -25,7 +25,7 @@ Then, we will use those various methods to cluster the different countries, and 
 First of all let's talk about the data used for our analysis.
 
 
-<img align="left" width="200" height="200" src="ratebeer.png">
+<img align="left" width="200" height="200" src="images\ratebeer.png">
 
 All come from the american website [RateBeer](https://www.ratebeer.com/), which is, according to it : *widely recognized as the most in-depth, accurate, and one of the most-visited source for beer information. RateBeer is a world site for craft beer enthusiasts and is dedicated to serving the entire craft beer community through beer education, promotion and outreach. is a consumer-driven Web site and we strive to remain unbiased in our ratings and editorial content.*
 
