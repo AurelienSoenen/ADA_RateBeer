@@ -104,6 +104,10 @@ However, in 2018 there has been a decrease in reviews, but this is completely lo
 
 ### Touring each country's favourites
 
+Knowing that the number of reviews is not equitable over time, we analyse the beer styles that each region in the world prefers over the different periods. Based on this, it is possible to find out which style comes up most often over the different time periods and is therefore the user's favourite style for each region.
+
+Despite the multitude of different beer styles, it can be seen that all regions are convinced of imperial stout beers, which are almost in the top three for each region over the whole period. Furthermore, it can be seen that each culture has its own typical taste, such as India Style Lager which is in second place in Eastern Asia or Speciality Grain which is in first place in Oceania.
+
 {% include top_3_country_2.html %}
 
 The chart of top 3 beers per country surprisingly shows that there's no strong relation between the taste of beers and continents or sub-regions. Especially among all the the european countries, interestingly quite some adjacent countries share completely different taste. But places that are both geographically far apart and culturally distant(for example Russia and Canada) shares similiar taste.
