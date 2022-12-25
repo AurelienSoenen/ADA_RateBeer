@@ -1,4 +1,4 @@
-It is not impetuous to say that during his lifetime, the majority of the human beings on earth will have tasted the cold and sweet beverage that is called beer. Some may dislike it, some may love it a little bit too much, but the least to say is that everybody has some word about it. 
+It is not impetuous to say that during his lifetime, the majority of human beings on earth will have tasted the cold and sweet beverage that is called beer. Some may dislike it, some may love it a little bit too much, but the least to say is that everybody has some word about it. 
 
 Indeed, not only this drink is universal, but it's also widely diverse in taste, style, ingredients, .... A real spectrum of variety across the different cultures of the world. Of course, with today mondialisation, every style is not confined to its region of origin anymore, it had the chance to spread across borders and oceans. That let people around the globe able to enjoy any kind they want.
 
@@ -20,7 +20,7 @@ First of all let's talk about the data used for our analysis.
 
 All come from the american website [RateBeer](https://www.ratebeer.com/), which is, according to it : *widely recognized as the most in-depth, accurate, and one of the most-visited source for beer information. RateBeer is a world site for craft beer enthusiasts and is dedicated to serving the entire craft beer community through beer education, promotion and outreach. RateBeeris a consumer-driven Web site and we strive to remain unbiased in our ratings and editorial content.*
 
-On this website, users can rate beers on 4 aspects : appearance, aroma, palate and taste, and they can add a text review to comment their opinion. Each users can encode its country (we will assume that they entered their real one), which will be very useful here, and write as many ratings as he likes:
+On this website, users can rate beers on 4 aspects : appearance, aroma, palate and taste, and they can add a text review to comment their opinion. Each user can encode its country (assuming that they entered their real one), which will be very useful here, and write as many ratings as he likes:
 
 <p align="center">
 {% include ratings_per_user.html %} 
@@ -28,7 +28,7 @@ On this website, users can rate beers on 4 aspects : appearance, aroma, palate a
 
 ### Cut the weeds
 
-As we can see, a large number of users only leave one or very few ratings. As our purpose is to compute the prefered style for the users, the one that leave almost no ratings are of very litte help to achieve it. So, as well as the website methods to compute the average score of a beer ([RateBeer Quality assurance](https://www.ratebeer.com/ratingsqa.asp)), we will need to take out users under a certain threshold of ratings.
+As we can see, a large number of users only leave one or very few ratings. As our purpose is to compute the prefered style for the users, the ones that leave almost no ratings are of very litte help to achieve it. So, as well as the website methods to compute the average score of a beer ([RateBeer Quality assurance](https://www.ratebeer.com/ratingsqa.asp)), we will need to take out users under a certain threshold of ratings.
 
 Moreover, the same reasonning can be applied for the countries : if we do not have enough users for a certain country, does it make sens to compute its favorite style? Will it really be representative of its population?
 
@@ -46,7 +46,7 @@ Without surprise, we see that the main place represented is Nothern America with
 
 ### Is it a democraty?
 
-The answer is no. Not every user worth the same in term of opinion : we already took out the ones without a sufficient rating history.In addition, some users can have binary rating (0 or 20) to favor their opinion in the overall site rating. Also, we could see the opinion of expert (people with a lot of rating), more representatif than some amateur. So we decided to apply a weight to all users, in the order to try to be as accurate as possible.
+The answer is no. Not every user worth the same in term of opinion : we already took out the ones without a sufficient rating history. In addition, some users can have binary ratings (0 or 20) to favor their opinion in the overall site rating. Also, we could see the opinion of expert (people with a lot of ratings), more representatif than some amateur. So we decided to apply a weight to all users, in the order to try to be as accurate as possible.
 
 \
 <span style="color:red;font-weight:700;font-size:20px">
@@ -86,18 +86,18 @@ At the end, we see the repartition of the different users, with a spike around 1
 </div>
 
 ### Old beer lovers
-These data were collected at the Beer Rate site during the period 2001 to 2017. Although we have 18 years of data, our analysis will not focus on the first few years as there is not enough data to make an accurate analysis. As you know, the popularity of the internet continues to grow and therefore it is not surprising to see an increase in reviews over the years. It is also worth mentioning that Rate Beer is a website and at the beginning it is not easy to get users to review beers. These two factors explain why there has been an increase in users over the years. It is even noticeable that this site had a linear growth. 
+These data were collected at the Beer Rate site during the period 2001 to 2017. We notice a large increase of number of ratings per year over time! Especially in the first half of its life. In the second half, there is still a steady and constant increase of ratings. As you know, the popularity of the internet continues to grow and therefore it is not surprising to see an increase in reviews over the years. It is also worth mentioning that Rate Beer is a website and at the beginning it is not easy to get users to review beers. These two factors explain why there has been an increase in users over the years. It is even noticeable that this site had a linear growth. 
 
 However, in 2018 there has been a decrease in reviews, but this is completely logical as the data for the site was collected in the middle of the year. For this reason we will carry out our analysis up to 2017.
 {% include ratings_over_time.html %} 
 
 ### Touring each country's favourites
 
-The table of the three best beers per country shows surprisingly that there is no strong relationship between the taste of beers and continents or sub-regions. Among all European countries, it is interesting to note that some neighbouring countries have completely different tastes. But places that are both geographically distant and culturally distant (e.g. Russia and Canada) share a similar taste. On all continents and in all sub-regions, almost all European countries have colours, which means that they have collected enough data, which is consistent with our impression that Europeans are generally big drinkers. However, the countries of the Middle East, South-East Asia and Africa are not represented, which may be partly explained by their history and religion.
+The table of the three best beers per country shows surprisingly that there is no strong relationship between the taste of beers and continents or sub-regions. Among all European countries, it is interesting to note that some neighbouring countries have completely different tastes. But places that are both geographically distant and culturally distant (e.g. Russia and Canada) share a similar taste. On all continents and in all sub-regions, almost all European countries have colours, which means that they have collected enough data, which is consistent with our impression that Europeans are generally big beer enjoyers. However, the countries of the Middle East, South-East Asia and Africa are not represented, which may be partly explained by their history and religion.
 
 {% include top_3_country_2.html %}
 
-Knowing that the number of reviews is not equitable over time, we analyse the beer styles that each region in the world prefers over the different periods. Based on this, it is possible to find out which style comes up most often over the different time periods and is therefore the user's favourite style for each region.
+Knowing that the number of reviews is not equitable over time, we analyse the beer styles that each region in the world prefers over the different periods. The periods are computed by dividing the timespan of the data between the number of periods we want to analyze. Based on this, it is possible to find out which style comes up most often over the different time periods and is therefore the user's favourite style for each region.
 
 Despite the multitude of different beer styles, it can be seen that all regions are convinced of imperial stout beers, which are almost in the top three for each region over the whole period. Furthermore, it can be seen that each culture has its own typical taste, such as India Style Lager which is in second place in Eastern Asia or Speciality Grain which is in first place in Oceania.
 
@@ -107,18 +107,17 @@ Moreover, we notice that there have been trends that have spread over the years.
 
 
 ## 2. Redrawing borders using beer preferences
-
+<div style="text-align: center;">
 ![Boundaries](/assets/boundaries.jpg)
+</div>
 
-Several things unite people from all around the world together: watching football, listening to music and arguably, *drinking beer*. These universal interests allow us to enjoy shared moments and put aside whatever differences we have. 
+What if we do not only look at the Top 3 of favorite styles per location, but take into account the all spectrum of opinion over all styles to reunite people around the globe?
 
 We hypothesize that people aren't so different after all.
 
-We may come from very different places, but we can redraw those borders by sharing in the same good 'ol beers 🥰
+If we break down preferences for beer styles into just two axes, we can easily visualize similarities between different countries's preferences for beers. Not every country has rated every type of beer style, so we used item-based collaborative filtering to fill in the gaps.
 
-If we break down preferences for beer styles into just two axes, we can easily visualize similarities between different countries' preferences for beers. Not every country has rated every type of beer style, so we used item-based collaborative filtering to fill in the gaps.
-
-The result, after decomposing high-dimension preference vectors into two axes is a map, where the size of the bubbles indicate the size of the country.
+The results, after decomposing high-dimension preference vectors into two axes is a map, where the size of the bubbles indicate the size of the country.
 
 <iframe width="1000" height="666" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/218AD" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -130,9 +129,9 @@ The resulting world map is plotted below.
 
 <iframe width="1000" height="333" src="https://datastudio.google.com/embed/reporting/e19fe6eb-0b94-4976-ac9f-4a45fa8dde40/page/p_l0bphrvq1c" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-Surprisingly, beer preferences are much less region specific. While Argentina, Chile, Brazil and Uruguay sharing the similar beer preferences may not shock anyone, who would have thought Russia, Ukraine and the United States would share similar preferences? Or let alone Canada and China?
+Surprisingly, beer preferences are much less region specific. While Argentina, Chile, Brazil and Uruguay sharing the similar beer preferences may not shock anyone, who would have thought Russia, Ukraine and the United States would share similar preferences? Does the past cultural wars made paradoxally their taste more similar? Or let alone Canada and China?
 
-We notice that particularly in Europe, countries like Croatia and Slovenia can share political borders with many countries, and yet differ with all of their neighbours in terms of beer preferences. Europe is known to produce a large variety of beers, so this might not come as a surprise to many.
+We notice that particularly in Europe, countries like Croatia and Slovenia can share political borders with many countries, and yet differ with all of their neighbours in terms of beer preferences. Europe is known to produce a large variety of beers, so this might not come as a surprise to many. Also we need to keep in mind the fact that the number of users may not be representative of they're country average taste.
 
 # Conclusion
 
@@ -141,3 +140,7 @@ Wrapping up, our biggest takeaway has got to be that we've got to start putting 
 In a world where we can sometimes feel like there is so much tension and disagreements out there, it's truly comforting to know that preferences for beers aren't exactly localized - just because countries are halfway across the globe from each other, it really doesn't mean that you can't share in the same enjoyment of sipping down a warm, frothy mug of beer.
 
 Trends exist all over the world. And this is also true for beers such as the imperial stout style, which over the years has been the preferred beer style on different continents with a trend from North to South and from West to East.
+
+However, we shall stay critical over those results : a lot of assumptions has been made, and the poor number of users and ratings for certain aeras made the conclusion touchy. Indeed, the website stays of american origin, and the sole fact that it is mainly written in english already excludes a lot of the world population to access it (and even more the fact that you need an access to internet too).
+
+Nevertheless, the idea that people with drastically different lifes and cultures could still sit together and enjoy this intemporal beverage put a smile on our faces, and we hope on yours too :).
