@@ -107,9 +107,9 @@ Moreover, we notice that there have been trends that have spread over the years.
 
 
 ## 2. Redrawing borders using beer preferences
-<div style="text-align: center;">
+
 ![Boundaries](/assets/boundaries.jpg)
-</div>
+
 
 What if we do not only look at the Top 3 of favorite styles per location, but take into account the all spectrum of opinion over all styles to reunite people around the globe?
 
